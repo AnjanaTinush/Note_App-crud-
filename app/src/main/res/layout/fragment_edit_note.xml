@@ -40,14 +40,14 @@
             android:id="@+id/editNoteDesc"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Enter the description"
-            android:gravity="top"
-            android:padding="12dp"
-            android:textSize="18sp"
-            android:fontFamily="@font/poppins"
-            android:background="@drawable/green_border"
             android:layout_below="@id/editNoteTitle"
-            android:layout_marginTop="12dp" />
+            android:layout_marginTop="20dp"
+            android:background="@drawable/green_border"
+            android:fontFamily="@font/poppins"
+            android:gravity="top"
+            android:hint="Enter the description"
+            android:padding="12dp"
+            android:textSize="18sp" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/editNoteFab"
@@ -55,8 +55,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="53dp"
-            android:layout_marginBottom="44dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginBottom="52dp"
             android:backgroundTint="@color/green"
             android:clickable="true"
             android:contentDescription="editFab"
